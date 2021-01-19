@@ -9,17 +9,18 @@ import { MatInputModule } from '@angular/material/input';
 import { MatOptionModule } from '@angular/material/core';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { CurrencyConverterComponent } from './currency-converter/currency-converter.component';
 
 @NgModule({
   declarations: [
     LengthConverterComponent,
     ConverterComponent,
-    
+    CurrencyConverterComponent
   ],
   exports: [
     ConverterComponent,
-    LengthConverterComponent
-    
+    LengthConverterComponent,
+    CurrencyConverterComponent
   ],
   imports: [
   CommonModule,
